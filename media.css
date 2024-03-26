@@ -1,0 +1,143 @@
+@media only screen and (max-width: 767px) {
+
+    .form 
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .subtextgoodDeal,.reviewText
+    {
+        text-align: justify;
+    }    
+    
+    body > div ,.form
+    {
+        padding: 5% 8% !important;
+    }
+
+    /* .introSearch input 
+    {
+        gap:5;
+
+    } */
+
+    .reviewText,.customerFeedBack,.textReview,.CustomerReview,.pricingRatecontent > div,.houseCards > div
+    ,.aboutDepartment,.aboutDepartment > div,.introSearch,.subtextIntro,.introSearch input
+    ,.goodDeal,.goodDealContent,.footerTopcontent,.form,.form input,textarea,.aboutApartmentFooter
+    {
+        width: 100% !important;
+    }
+
+    .customerProfilePic
+    {
+      left: 45%; 
+      
+    }
+    .departmentHeading
+    {
+       justify-content: center;
+
+    }
+
+    .mainHeading
+    {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        text-align: center;
+
+    }
+
+    .houseCards > div ,.pricingRatecontent > div
+    {
+        box-shadow: 2px 2px 3px rgb(72, 69, 69);
+    }
+    .departmentPic
+    {
+        height: 15rem;
+    }
+
+    .apartmentIntro
+    {
+        background-image: none;
+    }
+
+    .navbarTop,.introSearch,.footer
+
+    {
+        padding: 0 !important;
+    }
+
+    .forMobileWallaper
+    {
+        height: 13rem;
+    }
+
+    .apartmentHeading .btn 
+    {
+         padding: .5rem 1rem;
+    }
+
+    .introSearch
+    {
+      margin:0 !important
+    }
+    .copyrightText
+    {
+        font-size: .5rem;
+    }
+
+    .nav-link
+    {
+      color: black !important;
+    }
+
+  }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .houseCards,.choseUsOptions,.choseUs
+    {
+        width: 100%;
+    }
+    .houseCards{
+        justify-content: space-between;
+    }
+    .houseCards > div 
+    {
+        width: 48%;
+    }
+    .choseUsOptions > div 
+    {
+        width: 25%;
+    }
+
+    .choseUsOptions,.aboutDepartment
+    {
+        gap:0 !important;
+        justify-content: space-between !important;
+    }
+    .choseUsOptions span 
+    {
+        font-size: 1rem !important;
+    }
+    .departmentContent,.goodDealPad,.ourPricing,.apartmentHeading
+    {
+        padding: 0 !important;
+    }
+    .departmentContent
+    {
+        width: 50%;
+    }
+    .pricingInfo,.apartmentIntro
+    {
+        padding: 2% 2% !important;
+    }
+
+    .introSearch
+    {
+        margin-left: 0 !important;
+    }
+
+  }
+  
+  

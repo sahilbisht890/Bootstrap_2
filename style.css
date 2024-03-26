@@ -1,0 +1,289 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+    
+}
+.houseCards img 
+{
+  height: 14rem;
+
+}
+
+.fs-7
+{
+    font-size: .9rem;
+}
+
+img 
+{
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+.fontpop
+{
+font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+body > div,.houseCards
+{
+    width: 100% !important;
+}
+
+.w-37
+{
+    width: 37%;
+}
+
+.bgorange
+{
+    background-color: #f97616;
+}
+
+.bgyellow
+{
+    background-color: #f9bc16;
+}
+
+.darkblue
+{
+    color:#0f2480;
+}
+
+.bgdarkblue
+{
+    background-color: #0f2480;
+}
+
+.lightblue
+{
+   color:rgb(53 84 209);
+}
+
+.bglightblue
+{
+    background-color: rgb(53 84 209);
+
+}
+
+.mainHeading
+{
+ font-size: 3.8rem;
+ line-height: 4.5rem;
+}
+
+.px-6
+{
+    padding:0% 5rem;
+}
+
+.apartmentIntro
+{
+    background-image: url('./images/shared\ image.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 57% 91%;
+}
+
+.mainLogo > img {
+        width: 6rem;
+        height: 1.4rem
+}
+
+.buttonCommon
+{
+    border: 1.5px solid #0f2480;
+    font-size: .8rem;
+    font-weight: 500;
+    padding:.5% 2%;
+}
+
+.buttonCommon:hover
+{
+  background-color: #0f2480;
+  color:white
+}
+.inputBorder,.customerFeedBack
+{
+    border: 1px solid #0f2480;
+
+}
+.departmentPic
+{
+    width: 43%;
+    height: 19rem;
+}
+
+.w-33
+{
+    width: 32.3%;
+}
+
+.w-md-30
+{
+    width: 30%;
+}
+.px-6
+{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.lh-7
+{
+    line-height: 2.2rem;
+}
+
+.whiteline
+{
+    width: 3rem;
+    height: 5px;
+    border-radius:10px;
+}
+
+.px-4mid
+{
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+
+.locationOne
+{
+    width: 12rem;
+    height: 16rem;
+}
+.locationTwo
+{
+    width: 20rem;
+    height: 14rem;
+}
+.logoChoseUs
+{
+    width: 3rem;
+    height: 3rem;
+}
+
+.gap-6
+{
+    gap:5rem
+}
+
+.choseUsOptions span
+{
+    font-weight: 600;
+}
+.customerProfilePic
+{
+    width: 6.2rem;
+    height: 7.5rem;
+}
+
+.headingTextReview > .verticalLine
+{
+      width: 3rem;
+      height: 5px;
+}
+
+.backgroundBlue
+{
+    width: 3.5rem;
+    height: 10rem;
+    z-index: -1;
+    bottom: -16%;
+    right: 68%
+}
+
+.leftArrowContainer
+{
+    width: 3rem;
+    height: 3rem;
+}
+
+.leftArrow
+{
+    width: .6rem;
+    height: .8rem;
+}
+
+.form
+{
+    padding-right: 10rem !important;
+}
+.py-2mid 
+{
+     padding-top: .8rem;
+     padding-bottom: .8rem;
+}
+
+.footerimg
+{
+    width: .8rem;
+    height: .8rem;
+}
+.footerbottom
+{
+    padding: 5% 8% 1% 12%;
+}
+
+.logoOneSocial
+{
+    width: 12rem;
+    height: 2rem;
+}
+hr
+{
+    opacity: 1 !important;
+    height: .5px;
+}
+
+.sendButton > div:hover{
+color:black !important;
+background-color: white !important;
+}
+
+.pricingInfo:hover,
+.pricingInfo:hover + .buyNow .buynowbtn,.buynowbtn:hover
+{
+    background-color: #f9bc16;
+}
+
+.threeLineNav
+{
+    width: 2rem;
+    height: 2rem;
+}
+
+.designBox > div
+{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.designBox
+{
+    top: 1rem;
+    right: 2rem
+}
+
+.boxtwo
+{
+    bottom: 1rem;
+    left: 1.5rem;
+
+}
