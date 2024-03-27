@@ -54,7 +54,7 @@
         height: 13rem;
     }
 
-    .apartmentHeading .btn 
+    .apartmentHeading .btn ,.textReview
     {
          padding: .5rem 1rem;
     }
@@ -104,11 +104,21 @@
     {
         padding: 0 !important;
     }
+.pricingInfo
+{
+    padding: 11% 12% !important;
+}
+
+.pricingRatecontent > div 
+{
+    width: 31%;
+}
+
     .departmentContent
     {
         width: 50%;
     }
-    .pricingInfo,.apartmentIntro
+    .apartmentIntro
     {
         padding: 2% 2% !important;
     }
@@ -118,7 +128,7 @@
         margin-left: 0 !important;
     }
 
-    .informationFooter
+    .informationFooter,.locationOne
     {
         display: none !important;
     }
@@ -139,6 +149,10 @@
 {
     margin-right: .6rem;
 }
+
+.departmentPic {
+    width: 48%;
+    height: 16rem;
   }
   
-  
+}

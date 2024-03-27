@@ -8,6 +8,11 @@
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
 .houseCards img 
 {
   height: 14rem;
@@ -16,24 +21,16 @@
 {
     font-size: .9rem;
 }
+
 img 
 {
     height: 100%;
     width: 100%;
 }
+
 ::-webkit-scrollbar
 {
     display: none;
-}
-
-.fontpop
-{
-font-family: "Poppins", sans-serif;
-}
-
-body{
-    width: 100vw;
-    height: 100vh;
 }
 
 body > div,.houseCards
@@ -48,10 +45,6 @@ body > div,.houseCards
 .bgorange
 {
     background-color: #f97616;
-}
-.bgyellow,.pricingInfo:hover,.pricingInfo:hover + .buyNow .buynowbtn,.buynowbtn:hover
-{
-    background-color: #f9bc16;
 }
 
 .darkblue
@@ -73,6 +66,7 @@ body > div,.houseCards
 {
     background-color: rgb(53 84 209);
 }
+
 .mainHeading
 {
  font-size: 3.8rem;
@@ -104,7 +98,6 @@ body > div,.houseCards
     font-weight: 500;
     padding:.5% 2%;
 }
-
 .buttonCommon:hover
 {
   background-color: #0f2480;
@@ -113,19 +106,16 @@ body > div,.houseCards
 .inputBorder,.customerFeedBack
 {
     border: 1px solid #0f2480;
-
 }
 .departmentPic
 {
     width: 43%;
     height: 19rem;
 }
-
 .w-33
 {
     width: 32.3%;
 }
-
 .w-md-30
 {
     width: 30%;
@@ -138,19 +128,16 @@ body > div,.houseCards
 {
     line-height: 2.2rem;
 }
-
 .whiteline
 {
     width: 3rem;
     height: 5px;
     border-radius:10px;
 }
-
 .px-4mid
 {
   padding:0 2rem;
 }
-
 .locationOne
 {
     width: 12rem;
@@ -162,17 +149,14 @@ body > div,.houseCards
     height: 14rem;
 }
 .logoChoseUs,.leftArrowContainer
-
 {
     width: 3rem;
     height: 3rem;
 }
-
 .gap-6
 {
     gap:5rem
 }
-
 .customerProfilePic
 {
     width: 6.2rem;
@@ -226,6 +210,7 @@ body > div,.houseCards
     width: 12rem;
     height: 2rem;
 }
+
 hr
 {
     opacity: 1 !important;
@@ -259,4 +244,47 @@ background-color: white !important;
 {
     bottom: 1rem;
     left: 1.5rem;
+}
+
+.bgyellow,.pricingInfo:hover,.pricingInfo:hover + .buyNow .buynowbtn, .buynowbtn:hover
+{
+    background-color: #f9bc16;
+}
+
+/* form css */
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook:hover,.btn-twitter:hover
+{
+    border: 1px solid #405D9D;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
 }
