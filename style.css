@@ -7,26 +7,20 @@
     padding: 0;
     margin: 0;
     font-family: "Poppins", sans-serif;
-
-    
 }
 .houseCards img 
 {
   height: 14rem;
-
 }
-
 .fs-7
 {
     font-size: .9rem;
 }
-
 img 
 {
     height: 100%;
     width: 100%;
 }
-
 ::-webkit-scrollbar
 {
     display: none;
@@ -41,6 +35,7 @@ body{
     width: 100vw;
     height: 100vh;
 }
+
 body > div,.houseCards
 {
     width: 100% !important;
@@ -50,13 +45,11 @@ body > div,.houseCards
 {
     width: 37%;
 }
-
 .bgorange
 {
     background-color: #f97616;
 }
-
-.bgyellow
+.bgyellow,.pricingInfo:hover,.pricingInfo:hover + .buyNow .buynowbtn,.buynowbtn:hover
 {
     background-color: #f9bc16;
 }
@@ -79,9 +72,7 @@ body > div,.houseCards
 .bglightblue
 {
     background-color: rgb(53 84 209);
-
 }
-
 .mainHeading
 {
  font-size: 3.8rem;
@@ -141,8 +132,7 @@ body > div,.houseCards
 }
 .px-6
 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+   padding:0 5rem;
 }
 .lh-7
 {
@@ -158,9 +148,7 @@ body > div,.houseCards
 
 .px-4mid
 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-
+  padding:0 2rem;
 }
 
 .locationOne
@@ -173,7 +161,8 @@ body > div,.houseCards
     width: 20rem;
     height: 14rem;
 }
-.logoChoseUs
+.logoChoseUs,.leftArrowContainer
+
 {
     width: 3rem;
     height: 3rem;
@@ -184,10 +173,6 @@ body > div,.houseCards
     gap:5rem
 }
 
-.choseUsOptions span
-{
-    font-weight: 600;
-}
 .customerProfilePic
 {
     width: 6.2rem;
@@ -207,12 +192,6 @@ body > div,.houseCards
     z-index: -1;
     bottom: -16%;
     right: 68%
-}
-
-.leftArrowContainer
-{
-    width: 3rem;
-    height: 3rem;
 }
 
 .leftArrow
@@ -236,6 +215,7 @@ body > div,.houseCards
     width: .8rem;
     height: .8rem;
 }
+
 .footerbottom
 {
     padding: 5% 8% 1% 12%;
@@ -255,12 +235,6 @@ hr
 .sendButton > div:hover{
 color:black !important;
 background-color: white !important;
-}
-
-.pricingInfo:hover,
-.pricingInfo:hover + .buyNow .buynowbtn,.buynowbtn:hover
-{
-    background-color: #f9bc16;
 }
 
 .threeLineNav
@@ -285,5 +259,4 @@ background-color: white !important;
 {
     bottom: 1rem;
     left: 1.5rem;
-
 }

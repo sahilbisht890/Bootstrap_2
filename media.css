@@ -1,11 +1,6 @@
 @media only screen and (max-width: 767px) {
 
-    .form 
-    {
-        justify-content: center;
-        align-items: center;
-    }
-    .subtextgoodDeal,.reviewText
+    .subtextgoodDeal,.reviewText,.CustomerReview
     {
         text-align: justify;
     }    
@@ -14,12 +9,6 @@
     {
         padding: 5% 8% !important;
     }
-
-    /* .introSearch input 
-    {
-        gap:5;
-
-    } */
 
     .reviewText,.customerFeedBack,.textReview,.CustomerReview,.pricingRatecontent > div,.houseCards > div
     ,.aboutDepartment,.aboutDepartment > div,.introSearch,.subtextIntro,.introSearch input
@@ -33,17 +22,10 @@
       left: 45%; 
       
     }
-    .departmentHeading
-    {
-       justify-content: center;
-
-    }
-
     .mainHeading
     {
         font-size: 3rem;
         line-height: 3.5rem;
-        text-align: center;
 
     }
 
@@ -77,15 +59,11 @@
          padding: .5rem 1rem;
     }
 
-    .introSearch
-    {
-      margin:0 !important
-    }
+ 
     .copyrightText
     {
         font-size: .5rem;
     }
-
     .nav-link
     {
       color: black !important;
@@ -95,13 +73,15 @@
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1035px) {
 
-    .houseCards,.choseUsOptions,.choseUs
+    .houseCards,.choseUsOptions,.choseUs,.footerbottom
     {
         width: 100%;
     }
+    
     .houseCards{
         justify-content: space-between;
     }
+
     .houseCards > div 
     {
         width: 48%;
@@ -138,6 +118,27 @@
         margin-left: 0 !important;
     }
 
+    .informationFooter
+    {
+        display: none !important;
+    }
+
+    .footerbottom > div
+    {
+        width: 30% !important;
+    }
+    .subtextgoodDeal,.reviewText
+    {
+    word-break: break-all;
+    }
+    .CustomerReview
+    {
+        margin: 0 !important;
+    }
+.leftArrowContainer
+{
+    margin-right: .6rem;
+}
   }
   
   
